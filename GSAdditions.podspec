@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/GyazSquare/GSAdditions.git', :tag => '1.0' }
   s.requires_arc = true
 
-  s.subspec 'UIKitExtensions' do |sp|
+  s.subspec 'UIKitGSAdditions' do |sp|
     sp.platform     = :ios
     sp.source_files = 'UIKitGSAdditions/*.{h,m}'
   end
