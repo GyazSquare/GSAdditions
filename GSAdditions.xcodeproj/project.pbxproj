@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */; };
 		D7A4817D1A806BB700340363 /* UITableViewCellGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817C1A806BB700340363 /* UITableViewCellGSAdditions.m */; };
+		D7A481801A80786100340363 /* GSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817F1A80786100340363 /* GSAdditions.m */; };
 		D7BF2AB71A753EA8000BC9D5 /* GSAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7BF2AB61A753EA8000BC9D5 /* GSAdditions.h */; };
-		D7BF2AB91A753EA8000BC9D5 /* GSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF2AB81A753EA8000BC9D5 /* GSAdditions.m */; };
 		D7BF2ABF1A753EA9000BC9D5 /* libGSAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BF2AB31A753EA8000BC9D5 /* libGSAdditions.a */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +42,10 @@
 		D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIApplicationGSAdditions.m; sourceTree = "<group>"; };
 		D7A4817B1A806BB700340363 /* UITableViewCellGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellGSAdditions.h; sourceTree = "<group>"; };
 		D7A4817C1A806BB700340363 /* UITableViewCellGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCellGSAdditions.m; sourceTree = "<group>"; };
+		D7A4817E1A80777900340363 /* UIKitGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitGSAdditions.h; sourceTree = "<group>"; };
+		D7A4817F1A80786100340363 /* GSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAdditions.m; sourceTree = "<group>"; };
 		D7BF2AB31A753EA8000BC9D5 /* libGSAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BF2AB61A753EA8000BC9D5 /* GSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAdditions.h; sourceTree = "<group>"; };
-		D7BF2AB81A753EA8000BC9D5 /* GSAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAdditions.m; sourceTree = "<group>"; };
 		D7BF2ABE1A753EA9000BC9D5 /* GSAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BF2AC41A753EA9000BC9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +93,7 @@
 				D7BF2ACD1A753F19000BC9D5 /* FoundationGSAdditions */,
 				D7BF2ACE1A753F2E000BC9D5 /* UIKitGSAdditions */,
 				D7BF2AB61A753EA8000BC9D5 /* GSAdditions.h */,
-				D7BF2AB81A753EA8000BC9D5 /* GSAdditions.m */,
+				D7A4817F1A80786100340363 /* GSAdditions.m */,
 			);
 			path = GSAdditions;
 			sourceTree = "<group>";
@@ -125,6 +126,7 @@
 			children = (
 				D7A481781A806A8D00340363 /* UIApplicationGSAdditions.h */,
 				D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */,
+				D7A4817E1A80777900340363 /* UIKitGSAdditions.h */,
 				D7A4817B1A806BB700340363 /* UITableViewCellGSAdditions.h */,
 				D7A4817C1A806BB700340363 /* UITableViewCellGSAdditions.m */,
 			);
@@ -218,9 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A481801A80786100340363 /* GSAdditions.m in Sources */,
 				D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */,
 				D7A4817D1A806BB700340363 /* UITableViewCellGSAdditions.m in Sources */,
-				D7BF2AB91A753EA8000BC9D5 /* GSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
