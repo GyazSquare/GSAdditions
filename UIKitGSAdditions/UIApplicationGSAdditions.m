@@ -9,21 +9,21 @@
 
 @implementation UIApplication (GSAdditions)
 
-static NSUInteger sEnableIdleTimerCount = 1; // default is 'enabled'
+static NSUInteger sDisableIdleTimerCount = 0;
 
 - (void)gs_enableIdleTimer {
     NSAssert1([NSThread isMainThread], @"*** %s: must be called on the main thread", __PRETTY_FUNCTION__);
-    sEnableIdleTimerCount++;
-    if (sEnableIdleTimerCount == 1) {
+    NSAssert1(sDisableIdleTimerCount > 0, @"*** %s: sDisableIdleTimerCount is 0", __PRETTY_FUNCTION__);
+    sDisableIdleTimerCount--;
+    if (sDisableIdleTimerCount == 0) {
         self.idleTimerDisabled = NO;
     }
 }
 
 - (void)gs_disableIdleTimer {
     NSAssert1([NSThread isMainThread], @"*** %s: must be called on the main thread", __PRETTY_FUNCTION__);
-    NSAssert1(sEnableIdleTimerCount > 0, @"*** %s: sEnableIdleTimerCount is 0", __PRETTY_FUNCTION__);
-    sEnableIdleTimerCount--;
-    if (sEnableIdleTimerCount == 0) {
+    sDisableIdleTimerCount++;
+    if (sDisableIdleTimerCount == 1) {
         self.idleTimerDisabled = YES;
     }
 }
