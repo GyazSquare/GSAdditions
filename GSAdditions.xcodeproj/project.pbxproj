@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7A298981A8B363100109560 /* NSStringGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A298971A8B363100109560 /* NSStringGSAdditions.m */; };
+		D7A2989F1A8B409E00109560 /* NSStringGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */; };
 		D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */; };
 		D7A4817D1A806BB700340363 /* UITableViewCellGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817C1A806BB700340363 /* UITableViewCellGSAdditions.m */; };
 		D7A481801A80786100340363 /* GSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817F1A80786100340363 /* GSAdditions.m */; };
@@ -38,6 +40,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D7A298961A8B363100109560 /* NSStringGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringGSAdditions.h; sourceTree = "<group>"; };
+		D7A298971A8B363100109560 /* NSStringGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringGSAdditions.m; sourceTree = "<group>"; };
+		D7A298991A8B366100109560 /* FoundationGSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationGSAdditions.h; sourceTree = "<group>"; };
+		D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringGSAdditionsTests.m; sourceTree = "<group>"; };
 		D7A481781A806A8D00340363 /* UIApplicationGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIApplicationGSAdditions.h; sourceTree = "<group>"; };
 		D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIApplicationGSAdditions.m; sourceTree = "<group>"; };
 		D7A4817B1A806BB700340363 /* UITableViewCellGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellGSAdditions.h; sourceTree = "<group>"; };
@@ -69,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7A2989C1A8B409E00109560 /* FoundationGSAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */,
+			);
+			path = FoundationGSAdditions;
+			sourceTree = "<group>";
+		};
 		D7BF2AAA1A753EA8000BC9D5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +115,7 @@
 		D7BF2AC21A753EA9000BC9D5 /* GSAdditionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7A2989C1A8B409E00109560 /* FoundationGSAdditions */,
 				D7BF2AC31A753EA9000BC9D5 /* Supporting Files */,
 			);
 			path = GSAdditionsTests;
@@ -117,6 +132,9 @@
 		D7BF2ACD1A753F19000BC9D5 /* FoundationGSAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				D7A298991A8B366100109560 /* FoundationGSAdditions.h */,
+				D7A298961A8B363100109560 /* NSStringGSAdditions.h */,
+				D7A298971A8B363100109560 /* NSStringGSAdditions.m */,
 			);
 			path = FoundationGSAdditions;
 			sourceTree = SOURCE_ROOT;
@@ -221,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A481801A80786100340363 /* GSAdditions.m in Sources */,
+				D7A298981A8B363100109560 /* NSStringGSAdditions.m in Sources */,
 				D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */,
 				D7A4817D1A806BB700340363 /* UITableViewCellGSAdditions.m in Sources */,
 			);
@@ -230,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A2989F1A8B409E00109560 /* NSStringGSAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +369,12 @@
 				);
 				INFOPLIST_FILE = GSAdditionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -362,6 +388,12 @@
 				);
 				INFOPLIST_FILE = GSAdditionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

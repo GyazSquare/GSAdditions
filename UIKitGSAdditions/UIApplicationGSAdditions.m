@@ -3,6 +3,8 @@
 //  UIKitGSAdditions
 //
 
+@import UIKit;
+
 #import "UIApplicationGSAdditions.h"
 
 @implementation UIApplication (GSAdditions)
