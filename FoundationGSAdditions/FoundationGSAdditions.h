@@ -4,3 +4,4 @@
 //
 
 #import "NSStringGSAdditions.h"
+#import "NSTimerGSAdditions.h"
