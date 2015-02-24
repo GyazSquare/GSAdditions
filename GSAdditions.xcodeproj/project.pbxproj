@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870139711A9C8C640018EDD2 /* NSTimerGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */; };
+		870139731A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */; };
 		D7A298981A8B363100109560 /* NSStringGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A298971A8B363100109560 /* NSStringGSAdditions.m */; };
 		D7A2989F1A8B409E00109560 /* NSStringGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */; };
 		D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */; };
@@ -40,6 +42,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8701396F1A9C8C640018EDD2 /* NSTimerGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerGSAdditions.h; sourceTree = "<group>"; };
+		870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerGSAdditions.m; sourceTree = "<group>"; };
+		870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerGSAdditionsTests.m; sourceTree = "<group>"; };
 		D7A298961A8B363100109560 /* NSStringGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringGSAdditions.h; sourceTree = "<group>"; };
 		D7A298971A8B363100109560 /* NSStringGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringGSAdditions.m; sourceTree = "<group>"; };
 		D7A298991A8B366100109560 /* FoundationGSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationGSAdditions.h; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */,
+				870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */,
 			);
 			path = FoundationGSAdditions;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 				D7A298991A8B366100109560 /* FoundationGSAdditions.h */,
 				D7A298961A8B363100109560 /* NSStringGSAdditions.h */,
 				D7A298971A8B363100109560 /* NSStringGSAdditions.m */,
+				8701396F1A9C8C640018EDD2 /* NSTimerGSAdditions.h */,
+				870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */,
 			);
 			path = FoundationGSAdditions;
 			sourceTree = SOURCE_ROOT;
@@ -238,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870139711A9C8C640018EDD2 /* NSTimerGSAdditions.m in Sources */,
 				D7A481801A80786100340363 /* GSAdditions.m in Sources */,
 				D7A298981A8B363100109560 /* NSStringGSAdditions.m in Sources */,
 				D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */,
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870139731A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m in Sources */,
 				D7A2989F1A8B409E00109560 /* NSStringGSAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
