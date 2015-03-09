@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		870139711A9C8C640018EDD2 /* NSTimerGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */; };
-		870139731A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */; };
+		D778463E1AA19E9300D4CD56 /* NSValueGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D778463D1AA19E9300D4CD56 /* NSValueGSAdditions.m */; };
 		D7A298981A8B363100109560 /* NSStringGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A298971A8B363100109560 /* NSStringGSAdditions.m */; };
-		D7A2989F1A8B409E00109560 /* NSStringGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */; };
 		D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A481791A806A8D00340363 /* UIApplicationGSAdditions.m */; };
 		D7A4817D1A806BB700340363 /* UITableViewCellGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817C1A806BB700340363 /* UITableViewCellGSAdditions.m */; };
 		D7A481801A80786100340363 /* GSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A4817F1A80786100340363 /* GSAdditions.m */; };
+		D7B76B151AAB0AB4007283D7 /* NSDataGSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B76B141AAB0AB4007283D7 /* NSDataGSAdditions.m */; };
+		D7B76B161AAB0B1D007283D7 /* NSStringGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */; };
+		D7B76B171AAB0B1D007283D7 /* NSTimerGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */; };
+		D7B76B181AAB0B1D007283D7 /* NSValueGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D778463F1AA1A0A400D4CD56 /* NSValueGSAdditionsTests.m */; };
+		D7B76B1A1AAB15C4007283D7 /* NSDataGSAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B76B191AAB15C4007283D7 /* NSDataGSAdditionsTests.m */; };
 		D7BF2AB71A753EA8000BC9D5 /* GSAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7BF2AB61A753EA8000BC9D5 /* GSAdditions.h */; };
 		D7BF2ABF1A753EA9000BC9D5 /* libGSAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BF2AB31A753EA8000BC9D5 /* libGSAdditions.a */; };
 /* End PBXBuildFile section */
@@ -45,6 +49,9 @@
 		8701396F1A9C8C640018EDD2 /* NSTimerGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerGSAdditions.h; sourceTree = "<group>"; };
 		870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerGSAdditions.m; sourceTree = "<group>"; };
 		870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerGSAdditionsTests.m; sourceTree = "<group>"; };
+		D778463C1AA19E9300D4CD56 /* NSValueGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSValueGSAdditions.h; sourceTree = "<group>"; };
+		D778463D1AA19E9300D4CD56 /* NSValueGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueGSAdditions.m; sourceTree = "<group>"; };
+		D778463F1AA1A0A400D4CD56 /* NSValueGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueGSAdditionsTests.m; sourceTree = "<group>"; };
 		D7A298961A8B363100109560 /* NSStringGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringGSAdditions.h; sourceTree = "<group>"; };
 		D7A298971A8B363100109560 /* NSStringGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringGSAdditions.m; sourceTree = "<group>"; };
 		D7A298991A8B366100109560 /* FoundationGSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationGSAdditions.h; sourceTree = "<group>"; };
@@ -55,6 +62,9 @@
 		D7A4817C1A806BB700340363 /* UITableViewCellGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCellGSAdditions.m; sourceTree = "<group>"; };
 		D7A4817E1A80777900340363 /* UIKitGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitGSAdditions.h; sourceTree = "<group>"; };
 		D7A4817F1A80786100340363 /* GSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAdditions.m; sourceTree = "<group>"; };
+		D7B76B131AAB0AB4007283D7 /* NSDataGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataGSAdditions.h; sourceTree = "<group>"; };
+		D7B76B141AAB0AB4007283D7 /* NSDataGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataGSAdditions.m; sourceTree = "<group>"; };
+		D7B76B191AAB15C4007283D7 /* NSDataGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataGSAdditionsTests.m; sourceTree = "<group>"; };
 		D7BF2AB31A753EA8000BC9D5 /* libGSAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BF2AB61A753EA8000BC9D5 /* GSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAdditions.h; sourceTree = "<group>"; };
 		D7BF2ABE1A753EA9000BC9D5 /* GSAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,8 +93,10 @@
 		D7A2989C1A8B409E00109560 /* FoundationGSAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				D7B76B191AAB15C4007283D7 /* NSDataGSAdditionsTests.m */,
 				D7A2989D1A8B409E00109560 /* NSStringGSAdditionsTests.m */,
 				870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */,
+				D778463F1AA1A0A400D4CD56 /* NSValueGSAdditionsTests.m */,
 			);
 			path = FoundationGSAdditions;
 			sourceTree = "<group>";
@@ -139,10 +151,14 @@
 			isa = PBXGroup;
 			children = (
 				D7A298991A8B366100109560 /* FoundationGSAdditions.h */,
+				D7B76B131AAB0AB4007283D7 /* NSDataGSAdditions.h */,
+				D7B76B141AAB0AB4007283D7 /* NSDataGSAdditions.m */,
 				D7A298961A8B363100109560 /* NSStringGSAdditions.h */,
 				D7A298971A8B363100109560 /* NSStringGSAdditions.m */,
 				8701396F1A9C8C640018EDD2 /* NSTimerGSAdditions.h */,
 				870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */,
+				D778463C1AA19E9300D4CD56 /* NSValueGSAdditions.h */,
+				D778463D1AA19E9300D4CD56 /* NSValueGSAdditions.m */,
 			);
 			path = FoundationGSAdditions;
 			sourceTree = SOURCE_ROOT;
@@ -246,9 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				870139711A9C8C640018EDD2 /* NSTimerGSAdditions.m in Sources */,
 				D7A481801A80786100340363 /* GSAdditions.m in Sources */,
+				D7B76B151AAB0AB4007283D7 /* NSDataGSAdditions.m in Sources */,
 				D7A298981A8B363100109560 /* NSStringGSAdditions.m in Sources */,
+				870139711A9C8C640018EDD2 /* NSTimerGSAdditions.m in Sources */,
+				D778463E1AA19E9300D4CD56 /* NSValueGSAdditions.m in Sources */,
 				D7A4817A1A806A8D00340363 /* UIApplicationGSAdditions.m in Sources */,
 				D7A4817D1A806BB700340363 /* UITableViewCellGSAdditions.m in Sources */,
 			);
@@ -258,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				870139731A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m in Sources */,
-				D7A2989F1A8B409E00109560 /* NSStringGSAdditionsTests.m in Sources */,
+				D7B76B161AAB0B1D007283D7 /* NSStringGSAdditionsTests.m in Sources */,
+				D7B76B171AAB0B1D007283D7 /* NSTimerGSAdditionsTests.m in Sources */,
+				D7B76B1A1AAB15C4007283D7 /* NSDataGSAdditionsTests.m in Sources */,
+				D7B76B181AAB0B1D007283D7 /* NSValueGSAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
