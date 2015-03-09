@@ -3,7 +3,7 @@
 //  GSAdditions
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface GSAdditions : NSObject
 @end
