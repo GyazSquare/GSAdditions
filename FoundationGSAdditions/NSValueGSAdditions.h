@@ -12,6 +12,8 @@
 #endif
 #endif
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSNumber (GSAdditions)
 
 #if MAC_OS_X_VERSION_10_5 <= MAC_OS_X_VERSION_MAX_ALLOWED || __IPHONE_2_0 <=  __IPHONE_OS_VERSION_MAX_ALLOWED
@@ -20,3 +22,5 @@
 #endif
 
 @end
+
+NS_ASSUME_NONNULL_END
