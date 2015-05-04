@@ -5,6 +5,8 @@
 
 @import Foundation.NSTimer;
 
+#import "NSObjCRuntimeGSAdditions.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSTimer (GSAdditions)
