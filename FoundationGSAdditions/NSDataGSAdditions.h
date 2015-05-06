@@ -5,8 +5,6 @@
 
 @import Foundation.NSData;
 
-#import "NSObjCRuntimeGSAdditions.h"
-
 @class NSString;
 
 NS_ASSUME_NONNULL_BEGIN

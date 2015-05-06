@@ -49,7 +49,6 @@
 		8701396F1A9C8C640018EDD2 /* NSTimerGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerGSAdditions.h; sourceTree = "<group>"; };
 		870139701A9C8C640018EDD2 /* NSTimerGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerGSAdditions.m; sourceTree = "<group>"; };
 		870139721A9C8E530018EDD2 /* NSTimerGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerGSAdditionsTests.m; sourceTree = "<group>"; };
-		D7195FFF1AF6714100579A2D /* NSObjCRuntimeGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjCRuntimeGSAdditions.h; sourceTree = "<group>"; };
 		D778463C1AA19E9300D4CD56 /* NSValueGSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSValueGSAdditions.h; sourceTree = "<group>"; };
 		D778463D1AA19E9300D4CD56 /* NSValueGSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueGSAdditions.m; sourceTree = "<group>"; };
 		D778463F1AA1A0A400D4CD56 /* NSValueGSAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueGSAdditionsTests.m; sourceTree = "<group>"; };
@@ -154,7 +153,6 @@
 				D7A298991A8B366100109560 /* FoundationGSAdditions.h */,
 				D7B76B131AAB0AB4007283D7 /* NSDataGSAdditions.h */,
 				D7B76B141AAB0AB4007283D7 /* NSDataGSAdditions.m */,
-				D7195FFF1AF6714100579A2D /* NSObjCRuntimeGSAdditions.h */,
 				D7A298961A8B363100109560 /* NSStringGSAdditions.h */,
 				D7A298971A8B363100109560 /* NSStringGSAdditions.m */,
 				8701396F1A9C8C640018EDD2 /* NSTimerGSAdditions.h */,
