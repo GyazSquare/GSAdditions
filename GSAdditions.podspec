@@ -9,11 +9,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec 'FoundationGSAdditions' do |sp|
+    sp.ios.deployment_target = '5.0'
+    sp.osx.deployment_target = '10.6'
     sp.source_files = 'FoundationGSAdditions/*.{h,m}'
   end
 
   s.subspec 'UIKitGSAdditions' do |sp|
-    sp.platform     = :ios
+    sp.platform     = :ios, '5.0'
     sp.source_files = 'UIKitGSAdditions/*.{h,m}'
   end
 end
