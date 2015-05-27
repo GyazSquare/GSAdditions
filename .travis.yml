@@ -1,4 +1,5 @@
 language: objective-c
+osx_image: beta-xcode6.3
 xcode_project: GSAdditions.xcodeproj
 xcode_scheme: GSAdditions
 xcode_sdk: iphonesimulator
