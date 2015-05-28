@@ -9,15 +9,15 @@
 
 @implementation NSString (GSAdditions)
 
-- (BOOL)gs_isEqualToStringCaseInsensitive:(NSString *)aString {
+- (BOOL)gs_isEqualToStringCaseInsensitive:(nullable NSString *)aString {
     return (aString && [self compare:aString options:(NSCaseInsensitiveSearch | NSLiteralSearch)] == NSOrderedSame);
 }
 
-- (BOOL)gs_hasPrefixCaseInsensitive:(NSString *)aString {
+- (BOOL)gs_hasPrefixCaseInsensitive:(nullable NSString *)aString {
     return (aString && ([self rangeOfString:aString options:(NSCaseInsensitiveSearch | NSAnchoredSearch)].length > 0));
 }
 
-- (BOOL)gs_hasSuffixCaseInsensitive:(NSString *)aString {
+- (BOOL)gs_hasSuffixCaseInsensitive:(nullable NSString *)aString {
     return (aString && ([self rangeOfString:aString options:(NSCaseInsensitiveSearch | NSBackwardsSearch | NSAnchoredSearch)].length > 0));
 }
 
