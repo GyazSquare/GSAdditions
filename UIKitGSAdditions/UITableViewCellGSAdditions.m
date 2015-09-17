@@ -11,10 +11,14 @@
 @implementation UITableViewCell (GSAdditions)
 
 + (void)load {
-    // TODO: Subtitles of UITableViewCell won't update
-    // http://stackoverflow.com/questions/25793074/subtitles-of-uitableviewcell-wont-update
-    if ([[UIDevice currentDevice].systemVersion compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending) {
-        // iOS 8 or later
+    NSString *systemVersion = [UIDevice currentDevice].systemVersion;
+    if([systemVersion compare:@"9.0" options:NSNumericSearch] != NSOrderedAscending) {
+        // iOS 9 or later
+        // do nothing
+    } else if ([systemVersion compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending) {
+        // iOS 8.x
+        // Subtitles of UITableViewCell won't update
+        // http://stackoverflow.com/questions/25793074/subtitles-of-uitableviewcell-wont-update
         Method original = class_getInstanceMethod(self, @selector(layoutSubviews));
         Method replace = class_getInstanceMethod(self, @selector(gs_layoutSubviews));
         method_exchangeImplementations(original, replace);
