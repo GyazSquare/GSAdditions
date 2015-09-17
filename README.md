@@ -2,13 +2,13 @@ GSAdditions
 ===========
 [![Build Status](https://travis-ci.org/GyazSquare/GSAdditions.svg?branch=master)](https://travis-ci.org/GyazSquare/GSAdditions)
 
-GSAdditions is Objective-C GS categories for iOS and OS X.
+GSAdditions is Objective-C GS categories for iOS, OS X and watchOS.
 
 ## Requirements
 
-* Xcode 6.3 or later
-* Base SDK: iOS 8.3 / OS X 10.10 or later
-* Deployment Target: iOS 5.0 / OS X 10.6 or later
+* Xcode 7 or later
+* Base SDK: iOS 9.0 / OS X 10.11 / watchOS 2.0 or later
+* Deployment Target: iOS 5.0 / OS X 10.6 / watchOS 2.0 or later
 
 ## Installation
 
@@ -16,7 +16,7 @@ GSAdditions is Objective-C GS categories for iOS and OS X.
 
 Check out the source:
 
-```sh
+```shell
 $ git clone https://github.com/GyazSquare/GSAdditions.git
 ```
 
