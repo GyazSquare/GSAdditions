@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'GSAdditions'
-  s.version      = '2.0.0'
+  s.version      = '2.0.1'
   s.author       = 'GyazSquare'
   s.license      = { :type => 'MIT' }
   s.homepage     = 'https://github.com/GyazSquare/GSAdditions'
-  s.source       = { :git => 'https://github.com/GyazSquare/GSAdditions.git', :tag => '2.0.0' }
+  s.source       = { :git => 'https://github.com/GyazSquare/GSAdditions.git', :tag => '2.0.1' }
   s.summary      = 'Objective-C GS categories for iOS, OS X and watchOS.'
   s.requires_arc = true
 
