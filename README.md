@@ -12,6 +12,16 @@ GSAdditions is Objective-C GS categories for iOS, OS X and watchOS.
 
 ## Installation
 
+### CocoaPods
+
+Add the pod to your `Podfile`:
+
+```ruby
+# ... snip ...
+
+pod 'GSAdditions', :git => 'https://github.com/GyazSquare/GSAdditions.git'
+```
+
 ### Source
 
 Check out the source:
