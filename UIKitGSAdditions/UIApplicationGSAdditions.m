@@ -28,6 +28,7 @@ static NSUInteger sDisableIdleTimerCount = 0;
     }
 }
 
+#if !TARGET_OS_TV
 static NSUInteger sEnableNetworkActivityIndicatorCount = 0;
 
 - (void)gs_enableNetworkActivityIndicator {
@@ -52,5 +53,6 @@ static NSUInteger sEnableNetworkActivityIndicatorCount = 0;
     self.applicationIconBadgeNumber = 1;
     self.applicationIconBadgeNumber = 0;
 }
+#endif
 
 @end
