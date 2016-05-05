@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec 'FoundationGSAdditions' do |sp|
-    sp.osx.deployment_target = '10.5'
+    sp.osx.deployment_target = '10.6'
     sp.tvos.deployment_target = '9.0'
-    sp.watchos.deployment_target = '1.0'
+    sp.watchos.deployment_target = '2.0'
     sp.source_files = 'FoundationGSAdditions/*.{h,m}'
   end
 
