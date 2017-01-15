@@ -2,6 +2,8 @@ GSAdditions
 ===========
 [![Build Status](https://travis-ci.org/GyazSquare/GSAdditions.svg?branch=master)](https://travis-ci.org/GyazSquare/GSAdditions)
 
+**Important:** This library is deprecated, it is recommended you look at [GSLAdditions](https://github.com/GyazSquare/GSLAdditions).
+
 GSAdditions is Objective-C GS categories for iOS, OS X, watchOS and tvOS.
 
 ## Requirements
